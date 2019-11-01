@@ -26,4 +26,6 @@ public class CricketCoach implements Coach {
 		return fortuneService.getFortune();
 	}
 
+
+	
 }
