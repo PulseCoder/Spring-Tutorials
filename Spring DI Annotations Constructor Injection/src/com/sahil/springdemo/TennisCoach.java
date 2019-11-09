@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TennisCoach implements Coach {
+public  class TennisCoach implements Coach {
 	FortuneService fortuneService;
 	
 	
@@ -15,18 +15,21 @@ public class TennisCoach implements Coach {
 	}
 
 
-
 	@Override
 	public String getDailyWorkout() {
-		return "Practice your backhand volley";
+		// TODO Auto-generated method stub
+		return null;
 	}
-
 
 
 	@Override
 	public String getDailyFortune() {
-		return fortuneService.getFortune();
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+
+
 	
 	
 
